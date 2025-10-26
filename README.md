@@ -1,5 +1,7 @@
 # Évrard **Van Espen**
 
+![me](me.jpeg)
+
 ## Profile
 Full‑stack developer and experienced DevOps professional with 7 years in startup environments. I cover the whole product lifecycle—from mock‑up and architecture design to end‑to‑end development, production deployment, meeting facilitation, and documentation. Comfortable with both back‑end and front‑end work and with Linux system administration ranging from a handful of machines to dozens.
 
