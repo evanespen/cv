@@ -1,0 +1,285 @@
+\documentclass[10pt, a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[british]{babel}
+\usepackage[left = 10mm, right = 10mm, top = 10mm, bottom = 10mm]{geometry}
+\usepackage[stretch = 25, shrink = 25, tracking=true, letterspace=30]{microtype}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{enumitem}
+\setlist{parsep = 0pt, topsep = 0pt, partopsep = 1pt, itemsep = 1pt, leftmargin = 6mm}
+\usepackage{FiraSans}
+\renewcommand{\familydefault}{\sfdefault}
+\definecolor{accent}{HTML}{582900}
+
+
+\newcommand{\dates}[1]{
+  \hfill \textcolor{gray}{#1}
+}
+
+\usepackage[colorlinks = true, urlcolor = black, linkcolor = black]{hyperref}
+\begin{document}
+
+\setlength{\topskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\fboxsep}{0pt}
+\pagestyle{empty}
+\raggedbottom
+
+
+%%%%%%% HEADER
+\small
+
+  \begin{minipage}[t][][t]{\textwidth}
+      \begin{minipage}{.2\textwidth}
+        \includegraphics[width=40mm]{me.jpeg}
+      \end{minipage}%
+      \hspace{.05\textwidth}%
+      \begin{minipage}{.75\textwidth}
+        {\textbf{\Large Évrard \textsc{Van Espen}}}\\
+        \textbf{Devops and Full-stack Developer, clean code, high performance}\\
+        \\
+        Experienced \textit{full stack} and \textit{devops} developer with several years of experience in \textit{startups}. My skills range from prototyping and architecture design to full development and operational production, including meeting management and creating both technical and user documentation. Proficient in \textit{front-end} and \textit{back-end} development, as well as \textit{Linux} system administration, from a few machines to dozens.
+      \end{minipage}
+      
+      \vspace{5mm}
+      
+      \begin{minipage}[t]{.48\textwidth}
+        \textbf{Contact} \hrulefill
+
+        \small
+        \faAt\ {\small \href{mailto:evrard@vanespen.dev}{evrard@vanespen.dev}} \\
+        \faPhone \ +33\,7\,81\,29\,99\,59 \\
+        \faGithub \ \href{https://github.com/evanespen}{evanespen} \\
+        \faLinkedin \ \small \href{https://www.linkedin.com/in/evrard-van-espen-28a003202}{linkedin.com/in/evrard-van-espen-28a003202}
+      \end{minipage}%
+      \hspace{.04\textwidth}%
+      \begin{minipage}[t]{.48\textwidth}
+        \textbf{Personal Information} \hrulefill
+
+        {\small
+          Nationality: \textbf{French} \\
+          Location: \textbf{Clermont-Ferrand} (remote or hybrid) \\
+          Languages: \textbf{French} (native), \textbf{English} (fluent)
+          %% }
+        }
+      \end{minipage}
+      
+      \vspace{5mm}
+      
+      \textbf{Skills} \hrulefill
+      
+      {\small
+        \begin{itemize}
+        \item \emph{Python}, \emph{Pandas}, \emph{Dart}, \emph{JavaScript}, \emph{Rust}, \emph{Go}, \emph{Elixir}
+        \item \emph{Flutter}, \emph{Svelte}, \emph{VueJS}, \emph{Figma}, \LaTeX
+        \item \emph{Linux} systems, \emph{PostgreSQL}, \emph{Ceph}, \emph{Docker}, \emph{Kubernetes}, monitoring (\emph{Grafana}, \emph{Prometheus}), automation (\emph{Ansible})
+        \item \emph{Gitlab CI}
+        \item Sensitive to cybersecurity issues
+        \item Autonomy, project understanding, initiative, creativity
+        \end{itemize}
+      }
+      \vspace{5mm}
+      \begin{minipage}[t]{.48\textwidth}
+        \textbf{Personal Projects} \hrulefill
+
+        {\small
+          \begin{itemize}
+          \item Maintaining a \emph{homelab} to test new technologies;
+          \item Developing projects to stay up-to-date with technologies and experiment with languages.
+          \end{itemize}
+        }
+      \end{minipage}%
+      \hspace{.04\textwidth}%
+      \begin{minipage}[t]{.48\textwidth}
+        \textbf{Interests} \hrulefill
+
+        {\small
+          Photography, cinema, nature, motorcycles, leatherwork.
+        }
+      \end{minipage}
+      %% }
+  \end{minipage}
+  
+  %%%%%%%% HEADER END
+  
+  \vspace{10mm}
+  
+  {\Large\textbf{Experiences}}
+  
+  \vspace{5mm}
+
+  %%%%%%%%%%
+
+  \large\textsc{\textbf{Sofware Engineer, Devops}}
+
+  \small\textit{\textbf{Arke}, Clermont-Ferrand} \dates{October 2023 - July 2025 (1 year and 9 months)}
+  
+  IT consulting and development company. Typical clients include large corporations, project leaders, and \emph{startups}.
+  
+  \vspace{2mm}
+  
+  \begin{itemize}
+  \item \textbf{Multi-platform application development:}
+    Developing complete mobile applications (prototypes, development, testing) intended to be presented as proofs of concept (POCs) to investors for fundraising. These POCs validated technical feasibility and project attractiveness for stakeholders;
+
+  \item \textbf{System administration and architecture:}
+    Administering and maintaining machines, configuring environments, and automating routine tasks;
+
+  \item \textbf{\emph{Rust} development:}
+    Integrating components into a \emph{Rust} \emph{API};
+
+  \item \textbf{\emph{Product Owner}:}
+    Close collaboration with clients to design intuitive and impactful interfaces, validated prior to investor presentations, leading design meetings to define specifications and validate deliverables;
+  \item \textbf{Product design:}
+    Participating in the design of a physical product, actively contributing to research and development of technical requirements.
+  \end{itemize}
+  
+  \vspace{2mm}
+  
+  \textbf{Key skills:} \emph{Flutter}, \emph{Figma}, \emph{Dart}, \emph{Rust}, \emph{Ansible}, \emph{Gitlab CI}, \emph{Docker}, autonomy, communication
+
+  \vspace{5mm}
+  
+  %%%%%%%%%%%%%%%%%
+  
+  \large\textsc{\textbf{Python Devops (freelance)}}
+  
+  \small\textit{\textbf{Michelin}, Clermont-Ferrand} \dates{April 2023 - October 2023 (6 months)}
+  
+  \vspace{2mm}
+  
+  \begin{itemize}
+  \item Providing technical support to \emph{Python} development teams;
+  \item Developing tools for developers;
+  \item Creating \emph{Docker} images and \emph{Gitlab CI} \emph{pipelines} for \emph{Python} and \emph{C++} teams;
+  \item Working in an agile methodology.
+  \end{itemize}
+  
+  \vspace{2mm}
+
+  \textbf{Key skills:} \emph{Python}, \emph{Docker}, \emph{Gitlab CI}, \emph{Artifactory}
+  
+  \vspace{5mm}
+  
+  %%%%%%%%%%%%%%%%%%
+  
+  \large\textsc{\textbf{Stand-in virtualization teacher}}
+  
+  \small\textit{\textbf{IUT informatique}, Clermont-Ferrand} \dates{May 2024 - June 2024 / May 2025 - June 2025}
+  
+  \vspace{2mm}
+  
+  Designing and teaching a complete module on virtualization and containerization technologies, covering \emph{Proxmox} and \emph{Kubernetes}. Conducting lectures, practical sessions, and final student evaluations.
+  
+  \vspace{2mm}
+  
+  \textbf{Key skills:} \emph{Kubernetes}, \emph{Docker}, \emph{Proxmox}, pedagogy
+  
+  \vspace{5mm}
+  
+  %%%%%%%%%%%%%%%%%%%%%%
+  
+  \newpage
+  
+  \large\textsc{\textbf{Sofware Engineer, Devops}}
+  
+  \small\textit{\textbf{Weather Measures}, Clermont-Ferrand} \dates{September 2018 - December 2022 (4 years and 3 months)}
+  
+  Company specializing in the production and supply of high-quality, high-resolution meteorological data, operating in the \emph{big data} sector. Clients include major corporations.
+  
+  \vspace{2mm}
+  
+  \begin{itemize}
+    
+    \item \textbf{Design of scalable data architectures:}
+  I developed solutions in \textbf{\emph{Python}} and \textbf{\emph{Pandas}} to process and analyze massive volumes of meteorological data in real time, enabling major clients to make faster and more accurate operational decisions;
+\item \textbf{Development of visualization tools and pipeline management:}
+  Creating interfaces in \textbf{\emph{VueJS}} and \textbf{\emph{Svelte}} to manage processing pipelines and visualize complex data, providing teams with better visibility and significant productivity gains;
+\item \textbf{Automation and industrialization of infrastructures:}
+  Using \textbf{Python scripts} and \textbf{Ansible playbooks}, I automated server deployment, configuration, and maintenance, reducing intervention times by \textbf{30\%} and eliminating the risk of manual errors, resulting in a more reliable and cost-effective infrastructure;
+\item \textbf{Proactive monitoring and incident resolution:}
+  I deployed a \textbf{Prometheus/Grafana stack} to monitor performance and anomalies in real time, enabling proactive problem detection and ensuring optimal service availability for end users;
+\item \textbf{High-availability cluster management:}
+  Administering a \textbf{\emph{Proxmox}} cluster (virtualization) and a \textbf{\emph{Ceph}} cluster (distributed storage), ensuring \textbf{99.9\% availability} and secure management of \textbf{~500 TB of data}, with daily ingestion of several TB;
+\item \textbf{Data security and resilience:}
+  Implementing \textbf{software RAID} (\emph{mdadm}), automated backups, and restoration tests, along with regular security audits, to protect sensitive data and ensure business continuity, even in the event of an incident;
+\item \textbf{Infrastructure security:}
+  Strengthening system security (SSH access management, firewall, encryption) and applying best practices to minimize risks and comply with regulatory requirements, providing peace of mind for clients and teams.
+  
+  \end{itemize}
+  
+  \vspace{2mm}
+  
+  \textbf{Key skills:} \emph{Python}, \emph{Pandas}, \emph{FastAPI}, \emph{VueJS}, \emph{Svelte}, \emph{Linux} systems, \emph{Ceph}, \emph{Prometheus}, \emph{Grafana}, \emph{Ansible}, \emph{Proxmox}, \emph{Kubernetes}, \emph{Docker}
+  
+  \vspace{5mm}
+  
+  %%%%%%%%%%%%%%%%%%
+  
+  \vspace{10mm}
+  
+  {\Large\textbf{Personal Projects}}
+  
+  \vspace{5mm}
+  
+  \large\textsc{\textbf{High-performance online photo gallery}}
+  
+  {\small
+    Online photo gallery designed to host my photography work, with 2000+ high-resolution photos, featuring high-performance \emph{front-end} display and \emph{API} responses.
+    This application includes features for processing image metadata, generating thumbnails, and an administration interface.
+    \medskip
+
+    I created several implementations to test new languages and stay up-to-date:
+    
+    \begin{itemize}
+      
+    \item \textbf{Microservices implementation, \emph{Nats}, \emph{Python}, \emph{Rust}, \emph{Go}:}
+      Implementation using microservices developed in \emph{Python} with \emph{FastAPI}, \emph{Rust}, and \emph{Go}, communicating via the \textbf{\emph{Nats}} messaging system;
+
+    \item \textbf{\emph{Go} implementation:}
+      Monolithic implementation using the \textbf{\emph{Go}} language with the \emph{Gin} library to create the \emph{API}, using \emph{\textbf{Apache Parquet}} for the database;
+    \item \textbf{\emph{Elixir} implementation:}
+      Monolithic implementation using the \textbf{\emph{Elixir}} language with the \emph{Phoenix} library to create the \emph{API};
+    \item \textbf{\emph{SvelteKit} implementation:}
+      \emph{Full-stack} implementation using the \textbf{\emph{SvelteKit}} framework, with \textbf{\emph{Postgresql}} for the database.
+      
+    \end{itemize}
+    
+    \vspace{2mm}
+    
+    \textbf{Key skills:} \emph{Python}, \emph{FastAPI}, \emph{VueJS}, \emph{Svelte}, \emph{Rust}, \emph{Go}, \emph{Elixir}, \emph{Apache Parquet}, \emph{Nats}, \emph{Jetstream}
+    
+  }
+  
+  %%%%%%%%%%%%%%%%%%%%%%%%
+  
+  \vspace{5mm}
+  
+  \large\textsc{\textbf{Homelab}}
+  
+  {\small
+    Maintaining a \emph{homelab} to test tool deployment and system administration.
+    The \emph{homelab} consists of a powerful machine hosting a \emph{\textbf{Proxmox}} server with a \emph{\textbf{Kubernetes}} cluster installed. Monitoring is performed using the \emph{\textbf{Prometheus/Grafana}} stack.
+    Continuous integration is set up using \emph{\textbf{Gitlab CI}}.
+    \vspace{2mm}
+    \textbf{Key skills:} \emph{Linux} systems, \emph{Kubernetes}, \emph{Docker}, \emph{Proxmox}, \emph{Grafana}, \emph{Prometheus}, \emph{Gitlab + CI}
+
+  }
+
+  %%%%%%%%%%%%%%%%%%
+  
+  \vspace{10mm}
+  
+  {\Large\textbf{Education}}
+  
+  \vspace{5mm}
+  
+  \large\textsc{\textbf{Professional Degree in Computer Science}}
+  
+  \small\textit{IUT informatique de Clermont-Ferrand} \dates{2018}
+\end{document}
